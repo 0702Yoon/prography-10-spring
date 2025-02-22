@@ -1,7 +1,7 @@
 package com.example.tableTennis.domain.common.controller;
 
 import com.example.tableTennis.domain.common.controller.dto.request.InitializeRequestDto;
-import com.example.tableTennis.domain.common.docs.RoomControllerDocs;
+import com.example.tableTennis.domain.common.docs.CommonControllerDocs;
 import com.example.tableTennis.domain.common.service.CommonService;
 import com.example.tableTennis.global.response.ApiResponse;
 import com.example.tableTennis.global.response.ResponseType;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-public class CommonController implements RoomControllerDocs {
+public class CommonController implements CommonControllerDocs {
 
     private final CommonService commonService;
 
